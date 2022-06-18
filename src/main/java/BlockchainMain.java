@@ -28,7 +28,7 @@ public class BlockchainMain {
         System.out.println(blockchainJson);
     }
 
-    public static Boolean isChainValid() {
+    private static Boolean isChainValid() {
         Block currentBlock;
         Block previousBlock;
 
